@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BuildYourProject</string>
+    <string name="entityName">Mazovia Chess Club</string>
+    <string name="courses">courses</string>
+    <string name="education">education</string>
+    <string name="tournaments">tournaments</string>
+    <string name="url">www.mzszach.pl</string>
+    <string name="address">02-548 Warszawa ul. Grażyny 13/15</string>
+    <string name="email">mzszach@mzszach.pl</string>
+    <string name="phoneNr">+48 501 493 797</string>
+</resources>

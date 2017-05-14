@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.android.buildyourproject.MainActivity">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <ImageView
+            style="@style/mainPic"
+            android:src="@drawable/mzszach" />
+
+        <TextView
+            android:id="@+id/entityName"
+            style="@style/entityName"
+            android:text="Mazovia Chess Club" />
+
+        <TextView
+            android:id="@+id/courses"
+            style="@style/offer"
+            android:layout_below="@+id/entityName"
+            android:text="courses" />
+
+        <TextView
+            android:id="@+id/education"
+            style="@style/offer"
+            android:layout_below="@+id/courses"
+            android:text="education" />
+
+        <TextView
+            style="@style/offer"
+            android:layout_below="@+id/education"
+            android:drawableLeft="@drawable/dot"
+            android:text="tournaments" />
+
+        <ImageView
+            style="@style/transparent"
+            android:src="@drawable/logomzszach" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000" />
+
+    <LinearLayout
+
+        style="@style/dataBackground">
+
+        <LinearLayout
+            style="@style/smallLayout">
+
+            <ImageView
+                style="@style/symbol"
+                android:src="@drawable/bishop" />
+
+            <TextView
+                style="@style/contactData"
+                android:autoLink="all"
+                android:linksClickable="true"
+                android:text="@string/url"
+                android:textColorLink="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/smallLayout">
+
+            <ImageView
+                style="@style/symbol"
+                android:src="@drawable/castle" />
+
+            <TextView
+                style="@style/contactData"
+                android:text="@string/address" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/smallLayout">
+
+            <ImageView
+                style="@style/symbol"
+                android:src="@drawable/knight" />
+
+            <TextView
+                style="@style/contactData"
+                android:text="@string/email" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/smallLayout">
+
+            <ImageView
+                style="@style/symbol"
+                android:src="@drawable/queen" />
+
+            <TextView
+                style="@style/contactData"
+                android:text="@string/phoneNr" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000" />
+
+</LinearLayout>
